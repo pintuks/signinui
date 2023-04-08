@@ -1,0 +1,97 @@
+.app{
+    margin: 0;
+    padding: 0;
+    background-color: #B5D5C5;
+    height: 100vh;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.child{
+    background-color: red;
+    height: 80%;
+    width: 80%;
+}
+
+.partion{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+    background-color:#5c7066;    
+    float: left;  
+    height: 100%;
+    width: 40%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.two{
+    background-color:rgba(255, 166, 0, 0.815);
+    float: right;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin_div{
+    background-color: white;
+    height: 60%;
+    width: 60%;
+    border-radius: 10px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #B5D5C5;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.sign-btn{
+    background-color: rgb(12, 12, 65);
+    color: white;
+}
+
+.header-div{
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 8px #888888;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    font-size: 15px;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
